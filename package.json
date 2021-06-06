@@ -1,0 +1,33 @@
+{
+  "name": "technical-support-assistance-auth-api",
+  "version": "1.0.0",
+  "description": "Authenticates users and generates temporary tokens",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acoss22/node-express-mongodb-authentication-app.git"
+  },
+  "keywords": [
+    "jwt",
+    "rest",
+    "api",
+    "node",
+    "tech",
+    "support"
+  ],
+  "author": "ana.sequeira",
+  "license": "ISC",
+  "homepage": "https://github.com/acoss22/node-express-mongodb-authentication-app.git#readme",
+
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10"
+  }
+}
