@@ -17,7 +17,7 @@ const option = {
     useCreateIndex: true
 };
 
-mongoose.connect('mongodb+srv://tsaauthapiuser:EjQectK3teKRVQ9k@cluster0.4zwut.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', option).then(function(){
+mongoose.connect('mongodb+srv://dsfsfdsfdsfsfdsfhd:EjQectK3teKRdghdfhdfhgdfhhgdhdVQ9k@cluster0.4zwut.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', option).then(function(){
     //connected successfully
     console.log('Connected to mongodb successfully.');
 }, function(err) {
